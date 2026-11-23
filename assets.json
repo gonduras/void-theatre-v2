@@ -1,0 +1,66 @@
+{
+  "assets": [
+    {
+      "path": "models/stage_king.glb",
+      "role": "stage",
+      "forward": "+z",
+      "source": "staging/operations_2026-11-15/claude/king_face_rework/void_theatre_face_rework.glb (textures resized, WebP)"
+    },
+    {
+      "path": "models/rabbit.glb",
+      "size": 1.7,
+      "measure": "height",
+      "forward": "+z",
+      "role": "player",
+      "source": "staging/operations_2026-11-21/agy/meshy_rabbit_rigged/... (decimated to 30k tris in Blender, skin + Walking/Running kept)"
+    },
+    {
+      "path": "models/gond.glb",
+      "size": 0.62,
+      "measure": "height",
+      "forward": "+z",
+      "role": "companion",
+      "source": "staging/operations_2026-11-21/agy/meshy_and_tripo_downloads/meshy_gond/gond_wandering_ember_meshy.glb (24k tris)"
+    },
+    {
+      "path": "models/gond_idle.glb",
+      "size": 0.62,
+      "measure": "height",
+      "forward": "+z",
+      "role": "companion, standing",
+      "source": "staging/operations_2026-11-22/astra_gond/Gond_sculpted_stride.blend (Codex's rock of Alexander's sculpted stride; 24k tris, WebP) via tools/export_gond_body.py"
+    },
+    {
+      "path": "models/gond_walk.glb",
+      "size": 0.69,
+      "measure": "height",
+      "forward": "+z",
+      "role": "companion, walking",
+      "source": "staging/operations_2026-11-21/claude/gond_sources/gond_box_legs.blend (his Meshy box on two new jointed legs; walk baked in place; 24k tris, WebP) via tools/export_gond_body.py"
+    },
+    {
+      "path": "models/relief.glb",
+      "size": 1.7,
+      "measure": "width",
+      "forward": "+z",
+      "role": "memory picture",
+      "source": "staging/operations_2026-11-20/agy/meshy_rabbit_assets/Meshy_AI_scene_bas_relief_plaq_1120180910_generate.glb (70k tris)"
+    },
+    {
+      "path": "models/horse.glb",
+      "size": 1.05,
+      "measure": "height",
+      "forward": "+z",
+      "role": "RANDOM's vessel",
+      "source": "staging/operations_2026-11-20/agy/horse_card_rig_v3/horse_card_rigged_v3.blend (Alexander's orange card horse, 17-bone rig; decimated to 25k tris, WebP, stray icosphere dropped) via tools/export_gond_body.py"
+    },
+    {
+      "path": "models/bear.glb",
+      "size": 1.45,
+      "measure": "height",
+      "forward": "+z",
+      "role": "visitor from Amusement (SF)",
+      "source": "D:/DOWN/IN/artlib/Amusement (SF)/Meshy/RIG/Meshy_AI_Blue_Ninja_Bear_20261122_animated_mixamo_Running.usdz (Alexander's rig, Mixamo Running; 10k tris) via tools/usdz_actor_to_glb.py"
+    }
+  ]
+}
